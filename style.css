@@ -78,6 +78,14 @@ span {
     text-decoration: none;
     list-style: none;
     padding-left: 0;
+    margin-bottom: 1rem    ;
+}
+
+.div1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .See {
@@ -94,7 +102,7 @@ span {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 10px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .dont_read {
@@ -106,3 +114,49 @@ span {
     margin-bottom: 10px;
     text-decoration: none;
 }
+
+
+
+.Goals {
+    font-family: poppins;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    text-decoration: none;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.my_Goals {
+    font-family: poppins;
+    color: #f5f5f5;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
