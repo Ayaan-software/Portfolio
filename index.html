@@ -79,19 +79,28 @@
 
         <h6 class="heading_">Contact me:</h6>
 
-    
+        
         <div class="contact-form-container" data-aos="fade-up"data-aos-duration="900">
             <form action="https://formsubmit.co/ayaan.khan@sus-opfikon.ch" method="POST" class="contact-form">
-              <input type="text" id="name" name="name" class="input" placeholder="Your Name" required>
-              <input type="email" id="email" name="email" class="input" placeholder="Your Email" required>
-              <textarea id="message" name="message" class="input" rows="6" placeholder="Your Message" required></textarea>
+              <input type="text" id="name" name="name" class="input" placeholder="Your Name*" required>
+              <input type="email" id="email" name="email" class="input" placeholder="Your Email*" required>
+              <textarea id="message" name="message" class="input" rows="6" placeholder="Your Message*" required></textarea>
           
-              <input type="hidden" name="_captcha" value="false">
-              
-          
-              <button type="submit" class="CV">Send Message</button>
+             <button type="submit" class="CV" href="https://ayaan-software.github.io/Portfolio/">Send Message</button>
+             <input type="hidden" name="_next" value="https://ayaan-software.github.io/Portfolio/">
+             <input type="hidden" name="_autoresponse" value="
+             Hello,
+
+             Thank you for reaching out to me through my portfolio website.
+             I have received your message and will get back to you as soon as possible.
+             
+             Best regards,
+             
+             Ayaan Khan">
             </form>
           </div>
+
+        
 
 
         <ul div class="div1">
@@ -102,5 +111,8 @@
     <script>
       AOS.init();
     </script>
+
+
+    <p class="end" >Made with ♥ by Ayaan</p>
 </body>
 </html>
