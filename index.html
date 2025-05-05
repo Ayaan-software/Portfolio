@@ -16,8 +16,13 @@
   </head>
 
   <body>
+    <script>
+      function reloadPage() {
+        location.reload();
+      }
+    </script>
     <div class="language-switch">
-      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="reloadPage()">EN</button>
       <button onclick="setLanguage('de')">DE</button>
     </div>
 
@@ -85,20 +90,23 @@
     <div class="Links" data-aos="fade-up" data-aos-duration="3000">
       <a
         href="IBM_Web development basics.png"
+        target="_blank"
         class="Skills"
         data-lang-en="Web development"
         data-lang-de="Webentwicklung"
         >Web development</a
       ><br />
       <a
-        href="Ayaan_Diplom_HTML.JPG"
+        href="HTML_Ayaan.png"
+        target="_blank"
         class="Skills"
         data-lang-en="HTML"
         data-lang-de="HTML"
         >HTML</a
       ><br />
       <a
-        href="Ayaan_Diplom_CSS.JPG"
+        href="CSS_Ayaan.png"
+        target="_blank"
         class="Skills"
         data-lang-en="CSS"
         data-lang-de="CSS"
@@ -106,6 +114,7 @@
       ><br />
       <a
         href="Ayaan_Diplom_JavaScript.JPG"
+        target="_blank"
         class="Skills"
         data-lang-en="JavaScript"
         data-lang-de="JavaScript"
@@ -113,6 +122,7 @@
       ><br />
       <a
         href="Ayaan_Diplom_Python.jpg"
+        target="_blank"
         class="Skills"
         data-lang-en="Python"
         data-lang-de="Python"
@@ -230,7 +240,6 @@
           name="name"
           class="input"
           placeholder="Your Name"
-          
         />
         <input
           type="email"
