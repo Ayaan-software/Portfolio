@@ -1,11 +1,13 @@
 # Ayaan Khan – Personal Portfolio Website
 
 Welcome to my personal portfolio!  
-This website is a showcase of my journey as a young, self-taught developer, built using **HTML**, **CSS**, and **JavaScript**. I created this site to reflect my passion for software development, document my progress, and support my application for an apprenticeship as an **Informatiker Applikationsentwickler** – especially for opportunities like the Google apprenticeship.
+This website is a showcase of my journey as a young, self-taught developer, built using **HTML**, **CSS**, and **JavaScript**. I created this site to reflect my passion for software development, document my progress, and support my application for an apprenticeship as an **Informatiker Applikationsentwickler** – especially for opportunities like apprenticeship.
+
+I am on the hunt for an **apprenticeship/Lehrstelle**!
 
 ## 🌟 About Me
 
-Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm currently attending Sekundarschule Halden and deeply interested in web development and application programming. Through platforms like **IBM SkillsBuild**, **Sololearn**, and other online courses, I've earned certificates and built this portfolio completely by myself.
+Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm currently attending Sekundarschule Halden and deeply interested in web development and application programming. Through platforms like **Microsoft Learn** **IBM SkillsBuild**, **Sololearn**, and other online courses, I've earned certificates and built this portfolio completely by myself.
 
 ## 🛠️ Technologies Used
 
