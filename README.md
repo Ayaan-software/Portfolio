@@ -45,7 +45,7 @@ Just open `index.html` in any modern web browser. No installation needed.
 
 ## 📫 Contact
 
-You can reach me through the contact form on the site or via email
+You can reach me through the contact form on the site or via email:
 
 - Email: ayaan.khan@sus-opfikon.ch / ayaan.zurich@gmail.com
 - Phone: +41 79 828 80 28  
