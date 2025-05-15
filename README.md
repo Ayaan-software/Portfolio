@@ -7,7 +7,7 @@ I am on the hunt for an **apprenticeship/Lehrstelle**!
 
 ## 🌟 About Me
 
-Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm currently attending Sekundarschule Halden and deeply interested in web development and application programming. Through platforms like **Microsoft Learn** **IBM SkillsBuild**, **Sololearn**, and other online courses, I've earned certificates and built this portfolio completely by myself.
+Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm currently attending Sekundarschule Halden and deeply interested in web development and application programming. Through platforms like **Microsoft Learn**, **IBM SkillsBuild**, **Sololearn**, and other online courses, I've earned certificates and built this portfolio completely by myself.
 
 ## 🛠️ Technologies Used
 
