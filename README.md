@@ -23,7 +23,7 @@ Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm 
 - **Multilingual Support** – Switch between English and German  
 - **Animated Sections** – Smooth AOS transitions for better user experience  
 - **Interactive Contact Form** – Submit messages directly via email  
-- **Certificate Showcase** – Clickable certificates from IBM, SoloLearn, and more  
+- **Certificate Showcase** – Clickable certificates from IBM, Microsoft, SoloLearn and more  
 - **CV Download** – View my latest CV as a PDF  
 - **Hobbies & Goals** – Learn more about my interests and future ambitions
 
