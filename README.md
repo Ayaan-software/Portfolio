@@ -26,7 +26,7 @@ Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm 
 - **Certificate Showcase** – Clickable certificates from IBM, Microsoft, SoloLearn and more  
 - **CV Download** – View my latest CV as a PDF  
 - **Hobbies & Goals** – Learn more about my interests and future ambitions
-
+  
 ## 🚀 Goals
 
 - Improve my CSS and JavaScript skills  
