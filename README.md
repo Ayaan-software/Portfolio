@@ -1,5 +1,5 @@
 # Ayaan Khan – Personal Portfolio Website
-
+ 
 Welcome to my personal portfolio!  
 This website is a showcase of my journey as a young, self-taught developer, built using **HTML**, **CSS**, and **JavaScript**. I created this site to reflect my passion for software development, document my progress, and support my application for an apprenticeship as an **Informatiker Applikationsentwickler** – especially for opportunities like apprenticeship.
 
