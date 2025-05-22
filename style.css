@@ -339,3 +339,65 @@ a {
 .language-switch button:hover {
   background-color: #ffa500;
 }
+
+.coding-journey {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #111;
+  color: white;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.certificate-item {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.certificate-item:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-item h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.certificate-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.certificate-item  {
+  font-size: 16px;
+  color: #ccc;
+  font-family: poppins;
+}
+
+.coding-journey .section-title {
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
