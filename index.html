@@ -20,14 +20,28 @@
       function reloadPage() {
         location.reload();
       }
+      function setLanguage(language) {
+        const elements = document.querySelectorAll("[data-lang-en]");
+        elements.forEach((el) => {
+          el.innerHTML =
+            language === "de"
+              ? el.getAttribute("data-lang-de")
+              : el.getAttribute("data-lang-en");
+        });
+      }
     </script>
+
     <div class="language-switch">
       <button onclick="reloadPage()">EN</button>
       <button onclick="setLanguage('de')">DE</button>
     </div>
 
-    <div data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <img src="Ayaan_Photo1.jpeg" alt="" />
+    <div
+      data-aos="fade-down"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1000"
+    >
+      <img src="Ayaan_Photo1.jpeg" alt="Ayaan Photo" />
     </div>
 
     <h1 class="ayaan" data-lang-en="Ayaan Khan" data-lang-de="Ayaan Khan">
@@ -36,126 +50,286 @@
 
     <div class="container">
       <div>
-        <h3 class="heading" data-lang-en="Welcome to my Portfolio!" data-lang-de="Willkommen in meinem Portfolio!">
+        <h3
+          class="heading"
+          data-lang-en="Welcome to my Portfolio!"
+          data-lang-de="Willkommen in meinem Portfolio!"
+        >
           Welcome to my Portfolio!
         </h3>
       </div>
     </div>
 
     <div data-aos="fade-up" data-aos-duration="3000">
-      <h5 class="text" data-lang-en="About me:" data-lang-de="Über mich:">About me:</h5>
-      <p class="about_me" data-lang-en="Hi, I'm Ayaan Khan..." data-lang-de="Hallo, ich bin Ayaan Khan...">
-        Hi, I'm Ayaan Khan, a student from Zurich. I am 14 years old. I'm currently in 8th grade and exploring the world of software development.
-        I have a strong <span>interest in coding</span>, especially in <span>web development</span> and application programming.
+      <h5 class="text" data-lang-en="About me:" data-lang-de="Über mich:">
+        About me:
+      </h5>
+      <p
+        class="about_me"
+        data-lang-en="Hi, I'm Ayaan Khan, a student from Zurich. I am 14 years old and currently in 8th grade exploring the world of software development. I have a strong interest in coding, especially in web development and application programming."
+        data-lang-de="Hallo, ich bin Ayaan Khan, ein Schüler aus Zürich. Ich bin 14 Jahre alt und besuche die 8. Klasse. Ich entdecke gerade die Welt der Softwareentwicklung. Ich habe ein starkes Interesse am Programmieren, besonders an Webentwicklung und Anwendungsprogrammierung."
+      >
+        Hi, I'm Ayaan Khan, a student from Zurich. I am 14 years old and
+        currently in 8th grade exploring the world of software development. I
+        have a strong <span>interest in coding</span>, especially in
+        <span>web development</span> and application programming.
       </p>
     </div>
 
     <div class="container" data-aos="fade-up" data-aos-duration="3000">
-      <a href="CV_Aktuell_Bearbeitung.pdf" target="_blank" class="CV">View CV</a>
+      <a
+        href="CV_Aktuell_Bearbeitung.pdf"
+        target="_blank"
+        class="CV"
+        data-lang-en="View CV"
+        data-lang-de="Lebenslauf anzeigen"
+      >
+        View CV
+      </a>
     </div>
 
     <div data-aos="fade-up" data-aos-duration="3000">
-      <p class="dont_read" data-lang-en="Coding Journey" data-lang-de="Programmierreise">Coding Journey</p>
+      <p
+        class="dont_read"
+        data-lang-en="Coding Journey"
+        data-lang-de="Meine Programmierreise"
+      >
+        Coding Journey
+      </p>
     </div>
 
     <div data-aos="fade-up" data-aos-duration="2500">
-      <p class="hi" data-lang-en="Click them to see Certificates!" data-lang-de="Klicken Sie darauf, um Zertifikate zu sehen!">
+      <p
+        class="hi"
+        data-lang-en="Click them to see Certificates!"
+        data-lang-de="Klicke darauf, um Zertifikate zu sehen!"
+      >
         Click them to see Certificates!
       </p>
     </div>
 
     <section class="coding-journey">
+      <div class="certificates-grid">
+        <div class="certificate-item">
+          <h3>Web Development</h3>
+          <img
+            src="IBM_Web development basics.png"
+            alt="Web Development Certificate"
+          />
+        </div>
+        <div class="certificate-item">
+          <h3>HTML</h3>
+          <img src="Ayaan_HTML_Diplome.jpg" alt="HTML Certificate" />
+        </div>
+        <div class="certificate-item">
+          <h3>CSS</h3>
+          <img src="Ayaan_CSS_Diplome.png" alt="CSS Certificate" />
+        </div>
+        <div class="certificate-item">
+          <h3>JavaScript</h3>
+          <img
+            src="Ayaan_JavaScript_Diplome.jpg"
+            alt="JavaScript Certificate"
+          />
+        </div>
+        <div class="certificate-item">
+          <h3>Python</h3>
+          <img src="Ayaan_Diplom_Python.jpg" alt="Python Certificate" />
+        </div>
+      </div>
+    </section>
 
-  <div class="certificates-grid">
-    <div class="certificate-item">
-      <h3>Web Development</h3>
-      <img src="IBM_Web development basics.png" alt="Web Development Certificate">
-    </div>
-    <div class="certificate-item">
-      <h3>HTML</h3>
-      <img src="Ayaan_HTML_Diplome.jpg" alt="HTML Certificate">
-    </div>
-    <div class="certificate-item">
-      <h3>CSS</h3>
-      <img src="Ayaan_CSS_Diplome.png" alt="CSS Certificate">
-    </div>
-    <div class="certificate-item">
-      <h3>JavaScript</h3>
-      <img src="Ayaan_JavaScript_Diplome.jpg" alt="JavaScript Certificate">
-    </div>
-    <div class="certificate-item">
-      <h3>Python</h3>
-      <img src="Ayaan_Diplom_Python.jpg" alt="Python Certificate">
-    </div>
-  </div>
-</section>
-    <!-- End Certificates -->
+    <h2
+      class="projectsHeading"
+      data-lang-en="My projects"
+      data-lang-de="Meine Projekte"
+    >
+      My projects
+    </h2>
 
-    <div data-aos="fade-up" data-aos-duration="3000"><p class="See"><br /></p></div>
+    <div class="projects">
+      <img src="Task list foto .png" alt="Project: Task List" class="task" />
+      <img
+        src="Portfolio examp.png"
+        alt="Project: Portfolio Example"
+        class="task"
+      />
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="3000">
+      <p class="See"><br /></p>
+    </div>
 
     <div data-aos="fade-up" data-aos-duration="3000">
       <ul class="Goals">
-        <li class="my_Goals" data-lang-en="My Goals:" data-lang-de="Meine Ziele:">My Goals:</li>
-        <li data-lang-en="🚀 Improve my CSS..." data-lang-de="🚀 Verbessere meine CSS...">
-          🚀 Improve my CSS and JavaScript skills to build more advanced projects.
+        <li
+          class="my_Goals"
+          data-lang-en="My Goals:"
+          data-lang-de="Meine Ziele:"
+        >
+          My Goals:
         </li>
-        <li data-lang-en="🌐 Learn new frameworks..." data-lang-de="🌐 Lerne neue Frameworks...">
+        <li
+          data-lang-en="🚀 Improve my CSS and JavaScript skills to build more advanced projects."
+          data-lang-de="🚀 Verbessere meine CSS- und JavaScript-Kenntnisse, um fortgeschrittene Projekte zu erstellen."
+        >
+          🚀 Improve my CSS and JavaScript skills to build more advanced
+          projects.
+        </li>
+        <li
+          data-lang-en="🌐 Learn new frameworks like React and Tailwind CSS."
+          data-lang-de="🌐 Lerne neue Frameworks wie React und Tailwind CSS."
+        >
           🌐 Learn new frameworks like React and Tailwind CSS.
         </li>
-        <li data-lang-en="💻 Create and publish..." data-lang-de="💻 Erstelle und veröffentliche...">
+        <li
+          data-lang-en="💻 Create and publish my own web applications."
+          data-lang-de="💻 Erstelle und veröffentliche meine eigenen Webanwendungen."
+        >
           💻 Create and publish my own web applications.
         </li>
-        <li data-lang-en="📜 Earn more coding..." data-lang-de="📜 Verdiene mehr Programmierzertifikate...">
+        <li
+          data-lang-en="📜 Earn more coding certificates and expand my knowledge."
+          data-lang-de="📜 Verdiene mehr Programmierzertifikate und erweitere mein Wissen."
+        >
           📜 Earn more coding certificates and expand my knowledge.
         </li>
-        <li data-lang-en="👨‍💻 Become a professional..." data-lang-de="👨‍💻 Werde ein professioneller...">
+        <li
+          data-lang-en="👨‍💻 Become a professional software developer in the future!"
+          data-lang-de="👨‍💻 Werde in Zukunft ein professioneller Softwareentwickler!"
+        >
           👨‍💻 Become a professional software developer in the future!
         </li>
       </ul>
     </div>
 
-    <div data-aos="fade-up" data-aos-duration="3000"><p class="See"><br /></p></div>
+    <div data-aos="fade-up" data-aos-duration="3000">
+      <p class="See"><br /></p>
+    </div>
 
     <div data-aos="fade-up" data-aos-duration="900">
       <p data-lang-en="My Hobbies" data-lang-de="Meine Hobbys">My Hobbies</p>
       <ul class="hobbies">
-        <li>⚽️ <strong>Football (<a class="fcglattbrugg" href="https://www.fcglattbrugg.ch/" target="_blank">FC Glattbrugg</a>):</strong> Active team player, building discipline and strategy.</li>
-        <li>📖 Reading Tech & AI News: Following online articles to stay informed about innovations.</li>
-        <li>💻 Programming: Enhancing my coding abilities in HTML, CSS, JavaScript, and Python.</li>
+        <li>
+          ⚽️
+          <strong
+            >Football (
+            <a
+              class="fcglattbrugg"
+              href="https://www.fcglattbrugg.ch/"
+              target="_blank"
+            >
+              FC Glattbrugg
+            </a>
+            ):</strong
+          >
+          Active team player, building discipline and strategy.
+        </li>
+        <li
+          data-lang-en="📖 Reading Tech & AI News: Following online articles to stay informed about innovations."
+          data-lang-de="📖 Tech- & KI-News lesen: Ich verfolge Online-Artikel, um über Innovationen informiert zu bleiben."
+        >
+          📖 Reading Tech & AI News: Following online articles to stay informed
+          about innovations.
+        </li>
+        <li
+          data-lang-en="💻 Programming: Enhancing my coding abilities in HTML, CSS, JavaScript, and Python."
+          data-lang-de="💻 Programmieren: Ich verbessere meine Programmierfähigkeiten in HTML, CSS, JavaScript und Python."
+        >
+          💻 Programming: Enhancing my coding abilities in HTML, CSS,
+          JavaScript, and Python.
+        </li>
       </ul>
     </div>
 
-    <h6 class="heading_" data-lang-en="Contact me:" data-lang-de="Kontaktiere mich:">Contact me:</h6>
+    <h6
+      class="heading_"
+      data-lang-en="Contact me:"
+      data-lang-de="Kontaktiere mich:"
+    >
+      Contact me:
+    </h6>
 
-    <div class="contact-form-container" data-aos="fade-up" data-aos-duration="900">
-      <form action="https://formsubmit.co/ayaan.khan@sus-opfikon.ch" method="POST" class="contact-form">
-        <input type="text" id="name" name="name" class="input" placeholder="Your Name" />
-        <input type="email" id="email" name="email" class="input" placeholder="Your Email*" required />
-        <textarea id="message" name="message" class="input" rows="6" placeholder="Your Message*" required></textarea>
-        <button type="submit" class="CV">Send Message</button>
-        <input type="hidden" name="_next" value="https://ayaan-software.github.io/Portfolio/" />
-        <input type="hidden" name="_autoresponse" value="Hello, Thank you for reaching out..." />
+    <div
+      class="contact-form-container"
+      data-aos="fade-up"
+      data-aos-duration="900"
+    >
+      <form
+        action="https://formsubmit.co/ayaan.khan@sus-opfikon.ch"
+        method="POST"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="input"
+          placeholder="Your Name"
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="input"
+          placeholder="Your Email*"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          class="input"
+          rows="6"
+          placeholder="Your Message*"
+          required
+        ></textarea>
+        <button
+          type="submit"
+          class="CV"
+          data-lang-en="Send Message"
+          data-lang-de="Nachricht senden"
+        >
+          Send Message
+        </button>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://ayaan-software.github.io/Portfolio/"
+        />
+        <input
+          type="hidden"
+          name="_autoresponse"
+          value="Hello,
+          Thank you for reaching out through my Portfolio website.
+          I have gotten your message. I will repond to you as soon as possible. for urgent things feel free to call me at: 079 828 80 28.
+          
+           Kind regards
+
+          Ayaan Khan
+
+      
+
+          
+          "
+        />
       </form>
     </div>
 
-    <ul class="div1"><li class="Contact">☎️ Tel. : 079 828 80 28</li></ul>
+    <ul class="div1">
+      <li class="Contact">☎️ Tel. : 079 828 80 28</li>
+    </ul>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      function setLanguage(language) {
-        const elements = document.querySelectorAll("[data-lang-en]");
-        elements.forEach((element) => {
-          const key = element.classList[0];
-          if (language === "en") {
-            element.innerText = element.getAttribute("data-lang-en");
-          } else if (language === "de") {
-            element.innerText = element.getAttribute("data-lang-de");
-          }
-        });
-      }
     </script>
 
-    <p class="end">Made with ♥ by Ayaan</p>
+    <p
+      class="end"
+      data-lang-en="Made with ♥ by Ayaan"
+      data-lang-de="Erstellt mit ♥ von Ayaan"
+    >
+      Made with ♥ by Ayaan
+    </p>
   </body>
 </html>
