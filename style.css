@@ -367,7 +367,7 @@ a {
 }
 
 .certificate-item:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
 .certificate-item h3 {
@@ -432,7 +432,7 @@ a {
   background-color: #1c1c1c;
   border-radius: 16px;
   padding: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);  
   flex-wrap: wrap;
 }
 
@@ -454,4 +454,15 @@ a {
 
 .task:hover {
   transform: translateY(-8px);
+}
+
+
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
