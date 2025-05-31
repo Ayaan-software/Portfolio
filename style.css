@@ -331,6 +331,7 @@ a {
   background-color: #ffa500;
 }
 
+/* === Section Wrapper === */
 .coding-journey {
   text-align: center;
   padding: 60px 20px;
@@ -338,7 +339,9 @@ a {
   color: white;
 }
 
+/* === Titles === */
 .section-title {
+  font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 800;
   margin-bottom: 10px;
@@ -350,48 +353,48 @@ a {
   color: #ccc;
 }
 
+/* === Certificates Grid === */
 .certificates-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  max-width: 1000px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
+/* === Individual Certificate Item === */
 .certificate-item {
-  background-color: #1c1c1c;
+  background-color: #1a1919;
   border-radius: 16px;
   padding: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(255, 165, 0, 0.2); /* softer orange glow */
+  border: 1px solid rgba(255, 255, 255, 0.05);  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ccc;
 }
 
 .certificate-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-9px);
+  box-shadow: 0 15px 30px rgba(255, 165, 0, 0.35);
 }
 
 .certificate-item h3 {
   font-size: 22px;
   margin-bottom: 15px;
+  color: #ffd700;
 }
+
 
 .certificate-item img {
   width: 100%;
   height: auto;
   border-radius: 12px;
-}
-.certificate-item {
-  font-size: 16px;
-  color: #ccc;
-  font-family: poppins;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-.coding-journey .section-title {
-  font-family: poppins;
-  font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
 
 .lightbox-thumb {
   cursor: pointer;
