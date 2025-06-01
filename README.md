@@ -30,7 +30,7 @@ Hi! I'm **Ayaan Khan**, a 14-year-old student from Glattbrugg, Switzerland. I'm 
 ## 🚀 Goals
 
 - Improve my CSS and JavaScript skills  
-- Learn frameworks like **React** and **Tailwind CSS**  
+- Learn frameworks like **React** and **Tailwind CSS**
 - Create and publish more advanced web apps  
 - Gain more certificates and industry experience  
 - Secure an apprenticeship to continue learning professionally 
